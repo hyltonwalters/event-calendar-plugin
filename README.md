@@ -1,6 +1,6 @@
 # Event Calendar Plugin
 
-A simple event calendar plugin to add, edit and manage events with a user-friendly frontend for visitors to view upcoming events.
+A simple event calendar plugin to add, edit and manage events with a user-friendly front-end for visitors to view upcoming events.
 
 ## Installation
 
@@ -20,7 +20,7 @@ A simple event calendar plugin to add, edit and manage events with a user-friend
 ### Editing Events
 
 1. Go to the 'Event Calendar' menu in the WordPress admin area.
-2. Click on the 'Edit' link next to the event you want to modify.
+2. Click the 'Edit' link next to the event you want to modify.
 3. Update the event details as needed.
 4. Click on the 'Update Event' button to save the changes.
 
@@ -28,26 +28,25 @@ A simple event calendar plugin to add, edit and manage events with a user-friend
 
 To display the calendar, use the following shortcode in your WordPress pages or posts:
 
-[event_calendar]
+`[event_calendar]`
 
 
 ### Displaying Events
 
 To display the list of upcoming events, use the following shortcode in your WordPress pages or posts:
 
-[event_list]
+`[event_list]`
 
 
 To display the details of a specific event, use the following shortcode with the appropriate event ID:
 
-[event_details id="123"]
-
+`[event_details id="123"]`
 
 Replace `123` with the actual ID of the event you want to display.
 
 To display the event search form, use the following shortcode:
 
-[event_search]
+`[event_search]`
 
 
 ### Additional Shortcodes
@@ -74,7 +73,7 @@ The Event Calendar Plugin provides various filters and actions that allow develo
 - `event_calendar_plugin_before_event_delete`: Triggered before deleting an event.
 - `event_calendar_plugin_after_event_delete`: Triggered after deleting an event.
 
-Developers can hook into these filters and actions to modify the plugin's behavior or integrate with other systems or plugins.
+Developers can hook into these filters and actions to modify the plugin's behaviour or integrate it with other systems or plugins.
 
 ## Contributing
 
