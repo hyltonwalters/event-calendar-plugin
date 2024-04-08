@@ -193,13 +193,6 @@ class Event_Calendar_Plugin_Admin {
 		register_taxonomy( 'event_keyword', 'event', $args );
 	}
 
-/**
- * Render the settings page for this plugin.
-	 */
-	public function display_plugin_admin_dashboard() {
-		include_once 'partials/event-calendar-plugin-admin-display.php';
-	}
-
 	/**
 	 * Render the "View Calendar" page.
 	 */
